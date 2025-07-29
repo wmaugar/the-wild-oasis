@@ -44,9 +44,6 @@ const GlobalStyles = createGlobalStyle`
     --image-opacity: 100%;
   
   }
-    
- 
- 
 
   &.dark-mode{
     /* FOR DARK MODE */

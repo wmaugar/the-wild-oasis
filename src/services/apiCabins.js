@@ -1,6 +1,8 @@
 //Reference to supabase documentation
 
-import supabase, { supabaseUrl } from "./supabase";
+import supabase from "./supabase";
+
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 
 export async function getCabins() {
   // from the supabase client we can now create queries with the FROM METHOD, so we specify the name of the table and the fields that we want (* means all of them)
